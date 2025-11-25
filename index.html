@@ -63,6 +63,30 @@
             font-size: 0.9em;
             color: #888;
         }
+        .footer-links {
+            margin-top: 10px;
+        }
+        .footer-links a {
+            color: #f39c12;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+        .footer-links a:hover {
+            color: #e67e22;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+            main h2 {
+                font-size: 1.4em;
+            }
+            .download-btn {
+                padding: 12px 25px;
+                font-size: 0.95em;
+            }
+        }
     </style>
 </head>
 <body>
@@ -75,11 +99,21 @@
     <h2>Obsidian Horizon</h2>
     <p>First-person stealth game. Play as an independent mercenary taking black-market contracts, infiltrating corporate facilities to extract intelligence in a sci-fi noir setting.</p>
     
-    <a class="download-btn" href="https://lightcastle-ironveil.itch.io/obsidian-horizon">Download APK</a>
+    <p style="margin-top: 20px;"><strong>Platform:</strong> Android 7.0+ | <strong>Status:</strong> Alpha</p>
+    
+    <a class="download-btn" href="https://lightcastle-ironveil.itch.io/obsidian-horizon">Download on itch.io</a>
+    
+    <p style="font-size: 0.9em; color: #888; margin-top: 30px;">
+        Free alpha build available. Feedback welcome.
+    </p>
 </main>
 
 <footer>
-    &copy; 2025 Ironveil Studios. All rights reserved.
+    <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="mailto:contact@ironveilstudios.com">Contact</a>
+    </div>
+    <p style="margin-top: 15px;">&copy; 2025 Ironveil Studios. All rights reserved.</p>
 </footer>
 
 </body>
